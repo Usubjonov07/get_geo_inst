@@ -17,7 +17,7 @@
     <div v-if="geoDenied" class="modal">
       <div class="modal-content">
         <h2>
-          📍 Bu video faqat O'zbekiston hududida ochiladi, Iltimos, videoni
+          Diqqat! Ushbu video faqat O‘zbekiston hududida ko‘rsatiladi., Iltimos, videoni
           ko'rish uchun joylashuvingizni tasdiqlang!
         </h2>
       </div>
